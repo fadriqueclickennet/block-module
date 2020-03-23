@@ -1,0 +1,31 @@
+{
+  "name": "fadriqueclickennet/block-module",
+  "description": "A module to create small blocks of content to display anywhere on the site.",
+  "license": "MIT",
+  "require": {
+    "php": "^7.1.3",
+    "composer/installers": "~1.0",
+    "fadriqueclickennet/core-module": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.5",
+    "orchestra/testbench": "~3.8.0",
+    "fzaninotto/faker": "^1.8",
+    "friendsofphp/php-cs-fixer": "^2.13",
+    "mockery/mockery": "^1.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Block\\": ".",
+      "Modules\\": "Modules/"
+    }
+  },
+  "authors": [
+    {
+      "name": "fadriqueclickennet",
+      "email": "fadriqueclickennet@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
